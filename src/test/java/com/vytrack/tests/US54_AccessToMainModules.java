@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -79,7 +80,7 @@ public class US54_AccessToMainModules extends TestBase {
                 "Fleet",
                 "Customers",
                "Activities",
-               "hhSystem"));
+               "System"));
 
             Assert.assertEquals(actualModuleText,expectedModuleText);
     }
