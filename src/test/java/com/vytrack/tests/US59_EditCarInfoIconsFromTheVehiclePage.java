@@ -1,16 +1,15 @@
 package com.vytrack.tests;
 
+import com.vytrack.tests.base.TestBase;
 import com.vytrack.utilities.Driver;
 import com.vytrack.utilities.VytrackUtils;
-import org.checkerframework.checker.units.qual.A;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class US6_EditCarInfoIconsFromTheVehiclePage {
+public class US59_EditCarInfoIconsFromTheVehiclePage {
 
 
 
@@ -50,6 +49,8 @@ public class US6_EditCarInfoIconsFromTheVehiclePage {
         actions.moveToElement(threeDots).perform();
 
         Assert.assertTrue(deleteIcon.isDisplayed());
+
+
 
 
 
