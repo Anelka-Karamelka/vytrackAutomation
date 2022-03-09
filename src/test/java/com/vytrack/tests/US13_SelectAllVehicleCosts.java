@@ -19,6 +19,7 @@ public class US13_SelectAllVehicleCosts extends TestBase {
 
 //   users see 3 columns on the Vehicle Model
 //   1-  Users are on the homepage
+
         VytrackUtils.loginAsDriver();
         WebElement fleet = Driver.getDriver().findElement(By.xpath("(//span[@class='title title-level-1'])[1]"));
         fleet.click();
