@@ -79,7 +79,7 @@ public class US54_AccessToMainModules extends TestBase {
                 "Fleet",
                 "Customers",
                "Activities",
-               "System"));
+               "hhSystem"));
 
             Assert.assertEquals(actualModuleText,expectedModuleText);
     }
