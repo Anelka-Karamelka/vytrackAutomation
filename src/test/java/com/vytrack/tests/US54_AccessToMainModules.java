@@ -15,7 +15,6 @@ import java.util.List;
 
 public class US54_AccessToMainModules extends TestBase {
 
-
     //testing modules for sale manager
     @Test
     public void test_verify_sales_manager(){
@@ -67,7 +66,6 @@ public class US54_AccessToMainModules extends TestBase {
         //testing modules as a driver
         @Test
         public void test_verify_driver(){
-
         VytrackUtils.loginAsDriver();
         List<WebElement> moduleElements=Driver.getDriver().findElements(By.xpath("//span[@class='title title-level-1']"));
         List<String> actualModuleText= new ArrayList<>();
@@ -81,7 +79,6 @@ public class US54_AccessToMainModules extends TestBase {
                 "Customers",
                "Activities",
                "System"));
-
             Assert.assertEquals(actualModuleText,expectedModuleText);
     }
 
