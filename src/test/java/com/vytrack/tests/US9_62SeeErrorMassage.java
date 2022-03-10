@@ -39,7 +39,7 @@ public class US9_62SeeErrorMassage {
             System.out.println("The value have not to be more than 99.");
         }
 
-        Driver.closeDriver();
+
     }
 
     @Test
