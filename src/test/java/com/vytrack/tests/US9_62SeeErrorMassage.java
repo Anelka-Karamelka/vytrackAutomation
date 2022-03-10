@@ -38,6 +38,7 @@ public class US9_62SeeErrorMassage {
             invalidIntegerBiggerThan99.sendKeys("134");
             System.out.println("The value have not to be more than 99.");
         }
+     Driver.closeDriver();
 
 
     }
