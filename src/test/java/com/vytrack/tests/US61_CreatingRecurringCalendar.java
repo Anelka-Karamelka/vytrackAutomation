@@ -87,4 +87,5 @@ public class US61_CreatingRecurringCalendar extends TestBase{
         WebElement messageAlert = Driver.getDriver().findElement(By.xpath("//span[.='This value should not be blank.']"));
         Assert.assertEquals(messageAlert.getText(), "This value should not be blank.");
     }
+
 }
