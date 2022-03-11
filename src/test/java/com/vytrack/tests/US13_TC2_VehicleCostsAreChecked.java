@@ -9,7 +9,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class US13_TC2_VehicleCostsAreChecked extends TestBase {
+public class US13_TC2_VehicleCostsAreChecked  extends TestBase {
 
 
     @Test
