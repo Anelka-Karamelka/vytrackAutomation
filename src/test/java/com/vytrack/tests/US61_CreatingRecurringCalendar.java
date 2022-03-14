@@ -26,7 +26,7 @@ public class US61_CreatingRecurringCalendar extends TestBase{
         WebElement calendarEvents = Driver.getDriver().findElement(By.xpath("//span[.='Casdadas']"));
         calendarEvents.click();
         //finding and clicking "Create Calendar Event" button
-        WebElement createCalendarBtn = Driver.getDriver().findElement(By.xpath("//a[@title='Create Calendar event']"));
+        WebElement createCalendarBtn = Driver.getDriver().findElement(By.xpath("//a[@title='Cdsadasdasdsaadasdasdsadas']"));
         createCalendarBtn.click();
         //finding and checking "Repeat" checkbox
         WebElement repeatCheckBox = Driver.getDriver().findElement(By.xpath("(//fieldset[@class='form-horizontal'])[1]//input[@data-name='recurrence-repeat']"));
