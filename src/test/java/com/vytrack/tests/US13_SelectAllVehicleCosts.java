@@ -1,5 +1,6 @@
 package com.vytrack.tests;
 
+import com.vytrack.tests.base.TestBase;
 import com.vytrack.utilities.Driver;
 import com.vytrack.utilities.VytrackUtils;
 import org.openqa.selenium.By;
@@ -11,7 +12,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class US13_SelectAllVehicleCosts extends TestBase{
+public class US13_SelectAllVehicleCosts extends TestBase {
 
     @Test
     public void columns_on_the_Vehicle_page_Driver() {
