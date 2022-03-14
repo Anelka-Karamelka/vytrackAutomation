@@ -23,7 +23,7 @@ public class US61_CreatingRecurringCalendar extends TestBase{
         WebElement activitiesModule = Driver.getDriver().findElement(By.xpath("(//li[@class='dropdown dropdown-level-1'])[3]"));
         activitiesModule.click();
         //clicking on "Calendar Events" under "Activities" module
-        WebElement calendarEvents = Driver.getDriver().findElement(By.xpath("//span[.='Cadsadasents']"));
+        WebElement calendarEvents = Driver.getDriver().findElement(By.xpath("//span[.='Casdadas']"));
         calendarEvents.click();
         //finding and clicking "Create Calendar Event" button
         WebElement createCalendarBtn = Driver.getDriver().findElement(By.xpath("//a[@title='Create Calendar event']"));
