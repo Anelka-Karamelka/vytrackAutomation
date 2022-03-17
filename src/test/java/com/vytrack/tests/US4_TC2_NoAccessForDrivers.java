@@ -45,7 +45,7 @@ permission to perform this action.”
         DriverVehicleContracts.click();
         VytrackUtils.waitTillLoaderMaskDisappear();
 
-        WebElement DriverErrorMessage = Driver.getDriver().findElement(By.xpath("//*[@id='flash-messages']/div/div/div[2]/div"));
+        WebElement DriverErrorMessage = Driver.getDriver().findElement(By.xpath("//div[contains(text(),'You do not have permission to perform this action.')]"));
         String expectedErrorMessage = "You do not have permission to perform this action.";
         String actualErrorMessage = DriverErrorMessage.getText();
         System.out.println("actualErrorMessage = " + actualErrorMessage);
